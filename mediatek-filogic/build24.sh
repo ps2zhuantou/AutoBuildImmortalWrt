@@ -53,6 +53,8 @@ PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES dawn luci-app-dawn luci-i18n-dawn-zh-cn"
+PACKAGES="$PACKAGES udpxy luci-app-udpxy luci-i18n-udpxy-zh-cn"
+#PACKAGES="$PACKAGES msd_lite luci-app-msd_lite luci-i18n-msd_lite-zh-cn"
 #24.10.0
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
