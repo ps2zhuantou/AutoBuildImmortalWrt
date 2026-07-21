@@ -4,7 +4,6 @@ source shell/custom-packages.sh
 source shell/switch_repository.sh
 echo "第三方软件包: $CUSTOM_PACKAGES"
 LOGFILE="/tmp/uci-defaults-log.txt"
-echo "Starting 99-custom.sh at $(date)" >> $LOGFILE
 # yml 传入的路由器型号 PROFILE
 echo "Building for profile: $PROFILE"
 # yml 传入的固件大小 ROOTFS_PARTSIZE
